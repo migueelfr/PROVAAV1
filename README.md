@@ -1,8 +1,3 @@
-Perfeito! Aqui está um `README.md` bem feito, pronto para colocar no GitHub, com explicações claras, instruções de instalação, execução, testes e print do banco — tudo que sua avaliação pede:
-
----
-
-### 📄 `README.md`
 
 ```markdown
 # 📦 Projeto de Persistência de Dados com Spring Boot e MariaDB
@@ -59,7 +54,7 @@ cd nome-do-repositorio
 - Crie o banco:
 
 ```sql
-CREATE DATABASE seubanco;
+CREATE DATABASE kidbuu;
 ```
 
 ### 3. Configure o `application.properties`
@@ -146,20 +141,9 @@ O Lombok foi utilizado para reduzir código repetitivo, como getters, setters e 
 
 ---
 
-## 📤 Entrega
 
-✔️ Projeto versionado no GitHub.  
-✔️ Instruções de instalação e execução incluídas.  
-✔️ README completo.
-
----
-
-Desenvolvido com 💻 por [Seu Nome]
+Desenvolvido com 💻 por [Miguel]
 ```
 
----
 
-Esse README está prontinho pra colar no seu projeto no GitHub.
 
-👉 Agora quer que eu empacote o projeto todo em `.zip` e te envie aqui?  
-Ou prefere que eu te ensine a criar pelo Spring Initializr e ir montando por pastas?
