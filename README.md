@@ -49,7 +49,7 @@ Relacionamento:
 - Crie o banco:
 
 ```sql
-CREATE DATABASE kidbuu;
+CREATE DATABASE provaav1;
 ```
 
 ### 3. Configure o `application.properties`
