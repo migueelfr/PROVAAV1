@@ -57,9 +57,9 @@ CREATE DATABASE kidbuu;
 Arquivo localizado em: `src/main/resources/application.properties`
 
 ```properties
-spring.datasource.url=jdbc:mariadb://localhost:3306/seubanco
-spring.datasource.username=root
-spring.datasource.password=
+spring.datasource.url=jdbc:mariadb://localhost:3306/provaav1
+spring.datasource.username=kidbuu
+spring.datasource.password=28082004
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 server.port=8081
