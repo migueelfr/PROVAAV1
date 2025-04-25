@@ -40,11 +40,6 @@ Relacionamento:
 - IDE (Spring Tool Suite, Eclipse ou VS Code)
 - Git instalado
 
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/seuusuario/nome-do-repositorio.git
-cd nome-do-repositorio
 ```
 
 ### 2. Configure o banco MariaDB com XAMPP
@@ -67,6 +62,7 @@ spring.datasource.username=root
 spring.datasource.password=
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
+server.port=8081
 ```
 
 ### 4. Rode o projeto
@@ -109,12 +105,12 @@ Content-Type: application/json
 
 ### 📋 Listar Categorias
 ```
-GET http://localhost:8080/categorias
+GET http://localhost:8081/categorias
 ```
 
 ### 📋 Listar Produtos
 ```
-GET http://localhost:8080/produtos
+GET http://localhost:8081/produtos
 ```
 
 ---
@@ -123,9 +119,6 @@ GET http://localhost:8080/produtos
 
 - ✅ Os testes foram realizados com sucesso via Postman.
 - ✅ Endpoints funcionam corretamente.
-- ✅ As chaves estrangeiras estão persistidas.
-- 🖼️ O print do banco no **HeidiSQL** será anexado no final do trabalho.
-
 ---
 
 ## 🧠 Explicação do projeto
@@ -140,6 +133,13 @@ O projeto foi estruturado em pacotes separados:
 O Lombok foi utilizado para reduzir código repetitivo, como getters, setters e construtores.
 
 ---
+
+![image](https://github.com/user-attachments/assets/2a734c92-2e72-4bbd-9320-f5a44df80209)
+![image](https://github.com/user-attachments/assets/d42d2281-6feb-429d-8aca-120acefac898)
+![image](https://github.com/user-attachments/assets/570ba84b-b4cd-45c0-bd87-1cba1d872eaa)
+
+
+
 
 
 Desenvolvido com 💻 por [Miguel]
